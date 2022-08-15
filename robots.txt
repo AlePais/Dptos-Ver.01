@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /administracion/
+Disallow: /general/
+Sitemap: http://www.departamentosenalquiler.com.ar/prueba/sitemap.xml 

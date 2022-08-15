@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="jquery.tinymce.min.js"></script>
+	<script type="text/javascript" src="tinymce.min.js"></script>
+    
+    <script type="text/javascript">
+        tinymce.init({selector: "#texto", language: "es"});
+    </script>
+</head>
+<body>
+    <h1>TinyMCE Getting Started Guide</h1>
+    <form method="post" action="ver.php">
+        <textarea id="texto" name="texto" width="100px"></textarea>
+		<input type="submit"></input>
+    </form>
+</body>
+</html>
